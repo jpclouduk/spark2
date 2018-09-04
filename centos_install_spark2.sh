@@ -1,5 +1,10 @@
 #!/bin/sh
 
+##Author: jpclouduk
+##Rev: 1.2
+##Date: 04/08/2018
+ 
+
 # Update yum repos
 yum clean all
 yum -y install epel-release
