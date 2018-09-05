@@ -23,7 +23,7 @@ export PATH=$PATH:/usr/lib/scala/bin
 scala -version
 
 # Install Spark
-wget http://www-eu.apache.org/dist/spark/spark-2.2.1/spark-2.2.1-bin-hadoop2.7.tgz
+wget http://www-eu.apache.org/dist/spark/spark-2.3.1/spark-2.3.1-bin-hadoop2.7.tgz
 tar -xzf spark-2.2.1-bin-hadoop2.7.tgz
 export SPARK_HOME=$HOME/spark-2.2.1-bin-hadoop2.7
 export PATH=$PATH:$SPARK_HOME/bin
