@@ -39,7 +39,7 @@ export PATH=$PATH:$SPARK_HOME/bin
 contin
 
 # Update global env variables
-sudo sh -c "printf '\nexport PATH=$PATH:/usr/lib/scala/bin \nexport SPARK_HOME=$HOME/spark-2.3.1-bin-hadoop2.7 \nexport PATH=$PATH:$SPARK_HOME/bin' >> /etc/bashrc"
+sudo sh -c "printf '\nexport PATH=\$PATH:/usr/lib/scala/bin \nexport SPARK_HOME=\$HOME/spark-2.3.1-bin-hadoop2.7 \nexport PATH=\$PATH:\$SPARK_HOME/bin' >> /etc/bashrc"
 contin
 
 # Update firewall
