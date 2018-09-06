@@ -1,7 +1,7 @@
 # Please follow these instructions first
 
 #Add local user to /etc/sudoers
-<youruser>   ALL=(ALL)       ALL
+<youruser>   ALL=(ROOT)   NOPASSWD:    ALL
 
 #Update OS
 sudo yum update -y
