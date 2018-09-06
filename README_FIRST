@@ -1,12 +1,12 @@
 # Please follow these instructions first
 
 #Add local user to /etc/sudoers
-<youruser>   ALL=(ROOT)   NOPASSWD:    ALL
+<youruser>   ALL=(root)   NOPASSWD: ALL
 
 #Update OS
 sudo yum update -y
 sudo yum upgrade -y
-sudo yum install git -y
+sudo yum install git wget -y
 
 #Clone Spark2 project
 cd ; mkdir projects ; cd projects
