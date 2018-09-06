@@ -4,9 +4,7 @@
 <youruser>   ALL=(root)   NOPASSWD: ALL
 
 #Update OS
-sudo yum update -y
-sudo yum upgrade -y
-sudo yum install git wget -y
+sudo yum update -y ; sudo yum upgrade -y ; sudo yum install git wget -y
 
 #Clone Spark2 project
 cd ; mkdir projects ; cd projects
