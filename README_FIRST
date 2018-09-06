@@ -12,3 +12,4 @@ sudo yum install git -y
 cd ; mkdir projects ; cd projects
 git clone https://github.com/jpclouduk/spark2.git
 cd spark2
+./centos_install_spark2.sh
