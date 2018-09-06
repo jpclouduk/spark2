@@ -1,1 +1,14 @@
-hello
+# Please follow these instructions first
+
+#Add local user to /etc/sudoers
+<youruser>   ALL=(ALL)       ALL
+
+#Update OS
+sudo yum update -y
+sudo yum upgrade -y
+sudo yum install git -y
+
+#Clone Spark2 project
+cd ; mkdir projects ; cd projects
+git clone https://github.com/jpclouduk/spark2.git
+cd spark2
